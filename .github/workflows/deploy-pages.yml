@@ -15,9 +15,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      REPO_URL: "xujiangnan/xujiangnan.github.io"  # 远程仓库的 URL
+      REPO_URL: "xujiangnan1014/xujiangnan1014.github.io"  # 远程仓库的 URL
       BUILD_PATH: ".vitepress/dist"  # 构建输出路径
-      CUSTOM_DOMAIN: "blog.xjn.com"  # 自定义域名
+      CUSTOM_DOMAIN: "xujiangnan1014.github.io"  # 自定义域名
 
     steps:
       - name: Set up Node.js
